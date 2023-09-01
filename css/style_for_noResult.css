@@ -1,0 +1,77 @@
+/* Navigation bar */
+#title{
+    background-color: #D4ECDD;
+}
+
+.logo-image{
+  height: 80px;
+  width:80px;
+  position: relative;
+  top: 30px;
+  right: 15px;
+}
+.big-heading{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.small-heading{
+  font-size: 1.5rem;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+}
+.navbar{
+  padding: 8px 0;
+  height: 120px;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+
+/* no results */
+#no-result{
+  padding: 10% 10%;
+  text-align: center;
+}
+/* for nav bar */
+@media (max-width: 1300px) {
+  .navbar{
+    height: auto;
+  }
+}
+/* underbar section */
+#under-bar{
+  background-color: #000;
+  color:#fff;
+  line-height: 1.5;
+}
+.under-bar-container{
+padding: 3% 10%
+}
+.copyright{
+font-weight: bold;
+}
+.padding{
+padding:30px 0;
+}
+.twitter{
+color:#fff;
+margin-right :10px;
+}
+.twitter:hover{
+color: #51DACF;
+}
+.facebook{
+color:#fff;
+margin-right :10px;
+}
+.facebook:hover{
+color: #14279B;
+}
+.envelope{
+color:#fff;
+margin-right :10px;
+}
+.envelope:hover{
+color: #5C7AEA;
+}

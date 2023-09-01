@@ -1,0 +1,146 @@
+/* Navigation bar */
+#title{
+    background-color: #D4ECDD;
+}
+
+.logo-image{
+  height: 80px;
+  width:80px;
+  position: relative;
+  top: 30px;
+  right: 15px;
+}
+.big-heading{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.small-heading{
+  font-size: 1.5rem;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+}
+.navbar{
+  padding: 8px 0;
+  height: 120px;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+/* news Section */
+.news-heading{
+  margin: 30px;
+}
+#news{
+  padding: 0 25%;
+}
+.date{
+  margin-bottom: 0;
+}
+.heading-text{
+  margin-bottom: 10px;
+}
+.img-fluid{
+  width: 100%;
+  height: 200px;
+}
+a{
+  color: #000;
+}
+a:hover{
+  color: #5C7AEA;
+  text-decoration: none;
+}
+.sub-text{
+  line-height: 2;
+}
+.icon{
+  padding:20px 0;
+}
+.fa-twitter{
+  color: #51DACF;
+  padding-right : 20px;
+}
+.fa-facebook{
+  color:#14279B;
+  padding-right: 20px;
+}
+.fa-twitter:hover{
+  color: #A2D2FF;
+}
+.fa-facebook:hover{
+  color: #5C7AEA;
+}
+hr{
+  border-top: solid #6C4A4A;
+}
+.font-size{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px;
+}
+/* page turning section */
+.page-number{
+   padding: 20px;
+}
+.page-switch-paragraph{
+  text-align: center;
+}
+.to-top{
+  font: 30px bold;
+  text-align: center;
+}
+/* for smart pone and Tablet */
+@media (max-width: 1028px) {
+  .navbar{
+    height: auto;
+  }
+  .img-fluid{
+    max-width: 100%;
+    height: 250px;
+  }
+  #news{
+    padding: 0 5%;
+  }
+  .font-size{
+    margin: 0;
+  }
+
+  }
+
+  /* underbar section */
+  #under-bar{
+    background-color: #000;
+    color:#fff;
+    line-height: 1.5;
+  }
+  .under-bar-container{
+  padding: 3% 10%
+  }
+  .copyright{
+  font-weight: bold;
+  }
+  .padding{
+  padding:30px 0;
+  }
+  .twitter{
+  color:#fff;
+  margin-right :10px;
+  }
+  .twitter:hover{
+  color: #51DACF;
+  }
+  .facebook{
+  color:#fff;
+  margin-right :10px;
+  }
+  .facebook:hover{
+  color: #14279B;
+  }
+  .envelope{
+  color:#fff;
+  margin-right :10px;
+  }
+  .envelope:hover{
+  color: #5C7AEA;
+  }
